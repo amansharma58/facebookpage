@@ -65,10 +65,10 @@
             }, 1000);
         }
     }
-    navigator.keyboard.lock();
-    document.onkeydown = function (e) {
-        return false;
-    }
-    document.addEventListener('contextmenu', function(event) {
-        event.preventDefault(); // Prevent the default right-click behavior (context menu)
-      });
+    // navigator.keyboard.lock();
+    // document.onkeydown = function (e) {
+    //     return false;
+    // }
+    // document.addEventListener('contextmenu', function(event) {
+    //     event.preventDefault(); // Prevent the default right-click behavior (context menu)
+    //   });
